@@ -1,0 +1,47 @@
+h3:nth-child(1) {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+div div p {
+    color: red;
+}
+.text-box p:nth-child(7) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.list li:hover,
+.list li:focus {
+    color: red;
+    background-color: aquamarine;
+}
+.list li:nth-child(odd) {
+    color: purple;
+    background-color: blanchedalmond;
+    border: 1px solid grey;
+}
+.list li:nth-child(even) {
+    color: darkgreen;
+    background-color: lightskyblue;
+    text-shadow: rgba(0, 0, 0, 0.325) 1px 1px 5px;;
+}
+.list li:first-child {
+    background-color: lightgreen;
+}
+.list li:last-child {
+    background-color: pink;
+}
+.list li:hover:nth-child(-n+3),
+.list li:focus:nth-child(-n+3) {
+    text-decoration: underline;
+}
+.link {
+    color: purple;
+    background-color: blanchedalmond;
+}
+a:visited {
+    color: black;
+}
